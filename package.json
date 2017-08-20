@@ -1,5 +1,5 @@
 {
-  "name": "sample-electron-babel",
+  "name": "sample-electron-react",
   "version": "0.1.0",
   "main": "app/server/server.js",
   "scripts": {
