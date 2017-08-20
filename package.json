@@ -4,17 +4,19 @@
   "main": "app/server/server.js",
   "scripts": {
     "start": "electron .",
-    "reload": "live-reload app --port 8080"
+    "reload": "live-reload app --port 8080",
+    "package": "electron-packager . --out dist --overwrite"
   },
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.26.0",
+    "electron-packager": "^8.7.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
     "electron": "^1.7.5",
     "live-reload": "^1.1.0"
   }
