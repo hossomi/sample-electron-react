@@ -1,0 +1,21 @@
+{
+  "name": "sample-electron-babel",
+  "version": "0.1.0",
+  "main": "app/server/server.js",
+  "scripts": {
+    "start": "electron .",
+    "reload": "live-reload app --port 8080"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "electron": "^1.7.5",
+    "live-reload": "^1.1.0"
+  }
+}

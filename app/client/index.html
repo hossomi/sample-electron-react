@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Electron app with Babel and React</title>
+    
+    <!-- Installs Live Reload client  -->
+    <script src="http://localhost:8080/livereload.js"></script>
+
+    <script>
+        // This calls Babel on the fly when a file is require'd.
+        require('babel-register');
+        
+        require('./client.js');
+    </script>
+</head>
+
+<body>
+    <div id="content" />
+</body>
+
+</html>
