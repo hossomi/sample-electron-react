@@ -18,3 +18,11 @@ Then start the application:
 ```
 yarn start
 ```
+
+# Packaging
+
+Run the following to package the app for the local environment:
+
+```
+yarn package
+```
